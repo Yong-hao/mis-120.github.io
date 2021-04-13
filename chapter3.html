@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3</title>
+</head>
+<body>
+    <style>
+        h1{
+            text-align: center;
+            margin: 40px;
+            color: rgb(32, 62, 161);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p{
+            font-size: 16px;
+            margin: 30px 120px 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: lighter;
+        }
+        ul {
+            margin: 10px 150px;
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        img{
+            max-width: 30%;
+            margin: 30px 120px 15px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 10px;
+            padding: 0px 120px 20px;
+            
+        }
+        .grid-container > div {
+            background-color: rgb(180, 179, 179);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 20px;
+        }
+        img{
+            max-width: 50%;
+            margin: 5px 10px 30px;
+        }
+        #grid2{
+            margin: 75px 100px 30px 100px;
+            text-align: left;
+        }
+        .example{
+            text-transform: uppercase;
+            color: rgb(231, 128, 9);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            text-align: center;
+            margin: 20px 120px 0px;
+            text-decoration: underline;
+        }
+        .example-container{
+            margin: 0px 100px 10px;
+        }
+        .converting-bloc-container{
+            font-family: 'Courier New', Courier, monospace;
+            padding: 20px 30px 10px;
+        }
+        .converting-bloc{
+            margin: 0px 40px;
+            font-weight: bold;
+            color: rgb(32, 62, 161);
+        }
+    </style>
+    <input type="button" value="Go back!" onclick="history.back()">
+
+    <h1>Chapter 3: Number System</h1>
+    <br/>
+    
+    <p>Number systems are the technique to represent numbers in the computer system architecture, every value that you are saving or getting into/from computer memory has a defined number system. Computer architecture supports following number systems:</p>
+    <ul>
+        <li class="listing">Binary (Base 2) — Represent any number using 2 digits [0–1]
+        <li class="listing">Decimal (Base 10) — Represent any number using 10 digits [0–9]</li>
+        <li class="listing">Octal (Bas3 8) — Represent any number using 8 digits [0–7]</li>
+        <li class="listing">Hexadecimal (Base 16) — Represent any number using 10 digits and 6 characters [0–9, A, B, C, D, E, F]</li></li>
+    </ul>
+    
+    <p>A number system is defined as a system of writing to express numbers. A number can be written differently in different bases.</p>
+    <div class="grid-container">
+        <div id="grid1">
+            <img src="img/oranges.png">
+        </div>
+        <div>
+            <ul id="grid2">
+                <li>Cave dweller: IIIII</li>
+                <li>Roman: V</li>
+                <li>Arabic: 5</li>
+            </ul>
+        </div>
+    </div>
+    
+    <p class="example">Examples:</p>
+    <div class="example-container">
+        <div class="converting-bloc-container">
+            <p class="converting-bloc">Converting binary to decimal</p>
+            <img src="img/bin2dec.png">
+        </div>
+        <div class="converting-bloc-container">
+            <p class="converting-bloc">Converting octal to decimal</p>
+            <img src="img/oc2dec.png">
+        </div>
+        <div class="converting-bloc-container">
+            <p class="converting-bloc">Converting hexadecimal to decimal</p>
+            <img src="img/hex2dec.png">
+        </div>
+    </div>
+    <hr>
+    <a href="Chapter3.pdf">To understand the lesson deeper, click this link</a>
+    <br/>
+    
+</body>
+</html>
